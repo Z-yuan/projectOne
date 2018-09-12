@@ -80,3 +80,8 @@ Are you sure you want to continue connecting (yes/no)?
 这是因为Git使用SSH连接，而SSH连接在第一次验证GitHub服务器的Key时，需要你确认GitHub的Key的指纹信息是否真的来自GitHub的服务器，输入yes回车即可。
 
 创建与合并分支
+首先，我们创建dev分支，然后切换到dev分支：
+$ git checkout -b dev
+git checkout命令加上-b参数表示创建并切换，相当于以下两条命令：
+$ git branch dev
+$ git checkout dev
