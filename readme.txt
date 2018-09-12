@@ -78,3 +78,5 @@ The authenticity of host 'github.com (xx.xx.xx.xx)' can't be established.
 RSA key fingerprint is xx.xx.xx.xx.xx.
 Are you sure you want to continue connecting (yes/no)?
 这是因为Git使用SSH连接，而SSH连接在第一次验证GitHub服务器的Key时，需要你确认GitHub的Key的指纹信息是否真的来自GitHub的服务器，输入yes回车即可。
+
+创建与合并分支
